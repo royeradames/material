@@ -1,1 +1,14 @@
-<h1>App working</h1>
+<mat-drawer-container class="container" autosize>
+  <!-- #drawer is capture for the button to use the toggle method -->
+  <mat-drawer #drawer class="sidenav" >
+    <!-- everything inside mat-drawer is the content of the menu -->
+    <p>Menu</p>
+  </mat-drawer>
+  <div class="sidenav-content">
+    <!-- button opens the menu -->
+      <button mat-icon-button (click)="drawer.toggle()" >
+        <!-- gives the menu icon -->
+        <mat-icon>menu</mat-icon>
+      </button>
+  </div>
+</mat-drawer-container>
