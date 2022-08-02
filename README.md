@@ -1,3 +1,4 @@
+![app bar](assets/app-bar.gif)
 # App Bars
 - Provide actions, navigation, and info for current context
 - App bar always visible
