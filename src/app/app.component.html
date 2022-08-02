@@ -1,26 +1,8 @@
 <mat-drawer-container class="container" autosize>
   <mat-drawer #drawer class="sidenav">
-    <!-- navigation buttons -->
-    <button color="primary" mat-button routerLink="/customers">
-      Customers
-    </button>
-    <button color="primary" mat-button routerLink="/orders">Orders</button>
-    <button color="primary" mat-button routerLink="/messages">Messages</button>
+
   </mat-drawer>
   <div class="sidenav-content">
-    <!-- adding tool bar -->
-    <mat-toolbar color="primary" >
-      <!-- adding title, icon and space between each other -->
-      <button mat-icon-button (click)="drawer.toggle()">
-        <mat-icon>menu</mat-icon>
-      </button>
-      <span>Title</span>
-      <span class="spacer"></span>
-      <mat-icon>favorite</mat-icon>
-    </mat-toolbar>
-    <mat-toolbar-row></mat-toolbar-row>
 
-    <!-- where the router content is display -->
-    <router-outlet></router-outlet>
   </div>
 </mat-drawer-container>
