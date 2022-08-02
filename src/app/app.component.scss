@@ -1,4 +1,3 @@
-// makes the menu come from the side
 .container{
   position:absolute;
   top:0;
@@ -7,10 +6,16 @@
   bottom:0;
 }
 
-// sets the side of the menu content
-// .container is use to target the element and the .mat-drawer to target the general material class
 .container .mat-drawer{
-  padding-left: 20px;
-  padding-right: 20px;
   min-width: 200px;
+}
+
+.container .mat-drawer .mat-button {
+  display: block;
+  width: 100%;
+  text-align: left;
+}
+
+.spacer{
+  flex: 1 1 auto;
 }
